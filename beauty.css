@@ -13,8 +13,13 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 25%;
-    background-image: url("../images/hero-bg.jpeg");
+    height: 45%;
+}
+
+.header-fonts {
+    text-decoration: none;
+    color: black;
+    font-family: 'Press Start 2P';
 }
 
 header h1 {
@@ -24,9 +29,6 @@ header h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     text-shadow: 5px 5px 10px rgba(211, 61, 31, 0.5);
-    background-color:antiquewhite;
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.50);
-    border-radius: 50%;
     padding: 30px;
     align-items: center;
 }
@@ -53,4 +55,32 @@ header nav ul li a {
     padding: 30px;
     font-size: 1.4vw;
     text-shadow: 5px 5px 10px rgba(211, 61, 31, 0.5);
+}
+
+.hero {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    background-image: url("77caa32884d735d439ade45ba37feaf2.gif");
+    width: 100%;
+    height: 400px;
+    background-position: 80%;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+.hero h2 {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-around;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color:wheat;
+    font-size: 30px;
+    margin: 15px;
+}
+
+.hero p {
+    color:wheat;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
+    font-size: 20px;
 }
